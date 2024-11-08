@@ -23,3 +23,6 @@ This repository contains my solutions to the CS50 problem sets, which are part o
 **JavaScript/HTML/CSS:** Web development to create interactive applications.
 
 **SQL:** Database querying and management with relational databases.
+
+
+Feel free to explore and adapt my solutions to understand the underlying concepts better. This repository reflects my learning journey in CS50 and showcases the skills and projects I have completed as part of the course.
