@@ -1,0 +1,509 @@
+#body {
+    background-color: #222222;
+    user-select: none;
+    cursor: default;
+}
+
+#bodybio {
+    background-color: #222222;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+.header {
+    cursor: default;
+}
+
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'optima', sans-serif;
+}
+
+#bio {
+    background: linear-gradient(to right, #696969, #505050);
+    text-shadow: 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2px #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+    margin: 10px;
+    position: relative;
+    top: -25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .35rem;
+    transition: transform 0.15s ease-in-out;
+}
+
+#hobbies {
+    background: linear-gradient(to right, #696969, #505050);
+    text-shadow: 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2px #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+    margin: 10px;
+    position: relative;
+    top: -25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .35rem;
+    transition: transform 0.15s ease-in-out;
+}
+
+#packers {
+    background: linear-gradient(to right, #696969, #505050);
+    text-shadow: 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2px #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+    margin: 10px;
+    position: relative;
+    top: -25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .35rem;
+    transition: transform 0.15s ease-in-out;
+}
+
+#music {
+    background: linear-gradient(to right, #696969, #505050);
+    text-shadow: 0 0 1px #fff, 0 0 1.5px #fff, 0 0 2px #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: -10px;
+    margin: 10px;
+    position: relative;
+    top: -25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .35rem;
+    transition: transform 0.15s ease-in-out;
+}
+
+button:active {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: bounce 0.25s ease-out;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes bounce {
+    0% { transform: scale(1.1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1.1); }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.header {
+    font-size: 5em;
+    font-weight: bold;
+    color: gray;
+    position: absolute; top: 40%; left: 45;
+    transform: translate(82%, -100%);
+    text-align: center;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 2px #fff;
+}
+
+.about {
+    color: white;
+    transform: translate(0%, 680%);
+    text-align: center;
+    font-size: 22px;
+}
+
+.about2 {
+    color: white;
+    transform: translate(0%, 1700%);
+    text-align: center;
+    font-size: 18px;
+}
+
+/* EVERYTHING BELOW THIS COMMENT IS FOR THE "ABOUT ME" PAGE AND THE "CODE" ABOVE IS FOR THE INDEX OR HOME PAGE */
+
+.headerbio {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 64px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -120%);
+    text-shadow: 5px 5px 3px black;
+
+}
+
+#bio1 {
+    color: white;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-35%, -120%);
+    text-shadow: 1px 0.75px 1px white;
+
+}
+
+#bio2 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(8.5%, 360%);
+    text-shadow: 1px 0.75px 1px white;
+}
+
+#bio3 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(50%, 40%);
+    text-shadow: 1px 0.75px 1px white;
+}
+
+#bio4 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(50%, 110%);
+    text-shadow: 1px 0.75px 1px white;
+}
+
+#biography {
+    color: white;
+    text-align: center;
+    font-size: 16px
+}
+
+
+#ig {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-250%, -250%);
+}
+
+#git {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(150%, -250%);
+
+}
+
+
+/* EVERYTHING BELOW THIS COMMENT IS FOR THE "HOBBIES" PAGE */
+
+#tae {
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 150px;
+}
+
+#headerhob {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 64px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#hobinfo {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -450%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#davante {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -150%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#davantedesc {
+    text-shadow: 0 0 10px white;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, -10%);
+    text-shadow: 1px 1px 3px white;
+}
+
+#gym {
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 150px;
+}
+
+#gymtitle {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -150%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#gymdesc {
+    text-shadow: 0 0 10px white;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, -10%);
+    text-shadow: 1px 1px 3px white;
+}
+
+#coding {
+    object-fit: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 150px;
+}
+
+#codetitle {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -100%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#codedesc {
+    text-shadow: 0 0 10px white;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, 15%);
+    text-shadow: 1px 1px 3px white;
+}
+
+
+/* EVERYTHING BELOW THIS COMMENT IS FOR THE "MUSIC" PAGE */
+
+#headermusic {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 64px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#musicinfo {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#japan {
+    object-fit: cover;
+    padding: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 5%);
+}
+
+#biginjapan {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 1100%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#heatwaves {
+    object-fit: cover;
+    padding: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 5%);
+}
+
+#heatwavesdesc {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 160%);
+    text-shadow: 5px 5px 3px black;
+    padding: 100px;
+}
+
+#sayitright {
+    object-fit: cover;
+    padding: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 5%);
+}
+
+#nellyfurtado {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 160%);
+    text-shadow: 5px 5px 3px black;
+    padding: 100px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+  }
+
+
+
+  /* EVERYTHING BELOW THIS COMMENT IS FOR THE "PACKERS" PAGE */
+
+
+#player-name {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(-50%, 160%);
+    text-shadow: 5px 5px 3px black;
+    padding: 100px;
+}
+
+.mt-5 {
+    color: white;
+    font-size: 20px;
+    transform: translate(-5%, 60%);
+}
+
+#headerpack {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 64px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -140%);
+    text-shadow: 5px 5px 3px black;
+}
+
+#Adams {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(-50%, 160%);
+    text-shadow: 5px 5px 3px black;
+    padding: 100px;
+}
+
+.card info-box {
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(20%, 10%);
+}
+
+#playerCarousel {
+    margin-top: 200px;
+}
+
+.container {
+    object-fit: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(-40%, 0%);
+  }
+
+
+#description-love {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    text-shadow: 5px 5px 3px black;
+    padding: 100px;
+}

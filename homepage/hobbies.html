@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <title>HOBBIES</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <body id=bodybio>
+        <div id="hobbiesCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/tae.jpg" id="tae" class="d-block w-100" alt="Hobby 1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="davante">Football / American Football</h5>
+                  <p id="davantedesc">As you've probably seen from my homepage, I am a big fan of football.<br>
+                     I support the Green Bay Packers and that's why I have Davante Adams
+                     on here even though <br>he doesn't play for the Packers anymore, he's
+                     still my favorite Green Bay Packer ever!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/gym.jpg" id="gym" class="d-block w-100" alt="Hobby 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="gymtitle">Lifting Weights / Working out</h5>
+                  <p id="gymdesc">This is pretty straightforward! I love to lift weights<br>
+                                  and just going to the gym in general. It makes me stronger,<br>
+                                  makes me feel better and it's just one of my hobbies!<br></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/code.jpg" id="coding" class="d-block w-100" alt="Hobby 2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="codetitle">Coding</h5>
+                  <p id="codedesc">Last but not least, we have coding! I've only been coding for half a year,<br>
+                     but I have still grown so fond of it and I just love it!<br> I can just completely
+                     zone out from reality and do what I wantwith code. I am not sure<br> if I like
+                     back-end or front-end more yet,but I will definitely figure it out with time!
+                     </p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#hobbiesCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#hobbiesCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        <section id="biography"></section>
+        <h1 id="headerhob">HOBBIES</h1>
+        <h3 id="hobinfo">Scroll all the way down for information on the hobby!</h3>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var myCarousel = document.querySelector('#carouselExample');
+            var carousel = new bootstrap.Carousel(myCarousel, {
+              interval: false
+            });
+          });
+        </script>
+    </body>
+</html>
+
