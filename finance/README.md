@@ -6,8 +6,13 @@ The project also involves managing a SQLite database to record user data, transa
 Languages and Technologies Used:
 
 Python: Core logic, particularly with Flask, which serves as the backend web framework.
+
 HTML: For structuring the web pages.
+
 CSS: For styling the web pages to create an engaging and user-friendly interface.
+
 JavaScript: For dynamic behavior on the frontend, like updating stock prices and forms.
+
 SQL (SQLite): For database management, handling user accounts, transaction records, and stock portfolio data.
+
 Jinja: Flask's templating engine used to inject Python code into HTML for dynamic page content.
