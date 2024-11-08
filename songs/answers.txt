@@ -1,0 +1,24 @@
+// If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+I'd say they're a very "popular music" kind of person. If this listener has the songs in songs.db
+as his top 100 songs, I'd assume they just turn on whatever is popular in the world.
+
+Spotify characterizes 'auras' by color, and I'd definitely characterize this with the color purple
+
+
+
+
+// Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+I've just went out on a limb here and assumed that the listener just listens to whatever's popular in the world.
+However, this may not be the case.
+
+If you calculate the danceability, energy and valence from this listener's top 100 songs, you'd get (assuming you round it up to two decimals):
+Danceability: 0.72
+Energy: 0.66
+Valence: 0.48
+
+There is a semi-clear pattern here. This user's top 100 songs may indicate that they prefer songs that are better for dancing
+and have a higher energy, however the valence is low, and that's expected because a lot of the top 100 songs are rap songs
+and we know what kind of lyrics those songs have (not always).
+
+In conclusion, calculating their aura by using Danceability and the Energy would be more accurate.
+
