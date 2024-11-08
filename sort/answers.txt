@@ -1,0 +1,32 @@
+sort1 uses: BUBBLE SORT
+
+How do you know?:
+
+I used both the random50000.txt and sorted50000 files for this.
+The random50000.txt took sort1 5.48s whereas sorted50000 took it 0.415.
+From what I remember from the lectures and short videos, bubble sort is
+significantly faster when the list is already sorted, hence the 0.415 on the sorted50000.
+It is a lot slower when the list is random or just unsorted, which shows because it's
+the slowest out of all 3 when it comes to unsorted lists.
+
+
+sort2 uses: MERGE SORT
+
+How do you know?:
+It performed very similarly when I ran it through both random50000 and sorted50000.
+Merge sort is a lot faster and more efficient than Bubble Sort when it comes to
+larger lists (both sorted and unsorted), which is also why I chose to use the 50000.txt files for this experiment.
+
+
+
+sort3 uses: SELECTION SORT
+
+
+How do you know?:
+So I used the 50000.txt files for all 3 sorts as said above.
+Selection sort is typically faster than bubble sort, but slower than merge sort
+when it comes to both unsorted and sorted lists. Looking at how sort1 and sort2 performed,
+I think it is safe to say that sort3 is selection sort. (Hopefully)
+
+
+Thank you and Professor Malan is the best
