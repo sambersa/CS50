@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>How many colors are there in a rainbow?</h3>
+                <p id="message" style="color: red;"></p>
+                <p id="correct" style="color: green;"></p>
+                <div class=trivia>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>92</button>
+                    <button>7</button>
+                </div>
+                <h3>What do you call a baby goat?</h3>
+                <div class=trivia>
+                    <button>David Malan</button>
+                    <button>A kid</button>
+                    <button>A geet</button>
+                    <button>Groot</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <div>
+                    <h3>Who is the greatest professor of all time?</h3>
+                    <input type="text" size="50" placeholder="Enter Answer" id="david">
+                    <button id="checkDavid"> Check Answer</button>
+                    <p id="davidMessage"></p>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.querySelectorAll(".trivia button").forEach(button => {
+                button.addEventListener("click", function() {
+                    const message = document.getElementById('message');
+                    if (this.textContent !== '7' && this.textContent !== 'A kid') {
+                        message.textContent = 'Incorrect!';
+                        message.style.color = 'red'; // Changing color to red if incorrect
+                    } else {
+                        message.textContent = 'Correct!';
+                        message.style.color = 'green'; // Changing color to green if correct
+                    }
+                });
+            });
+
+            document.getElementById('checkDavid').addEventListener('click', function() {
+                const userAnswer = document.getElementById('david').value.trim().toLowerCase();
+                const correctAnswer = 'David Malan'.toLowerCase();
+                const message = document.getElementById('davidMessage');
+
+                if (userAnswer === correctAnswer) {
+                    message.textContent = 'Correct!';
+                    message.className = 'correct';
+                    message.style.color = 'green'; // Changing color to green if correct
+                } else {
+                    message.textContent = 'Incorrect!'
+                    message.className = 'incorrect';
+                    message.style.color = 'red'; // Changing color to red if incorrect
+                }
+                message.style.display = 'block';
+            });
+        </script>
+    </body>
+
+</html>
