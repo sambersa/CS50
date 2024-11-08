@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <h2>Portfolio</h2>
+        <h3>Your Cash: {{ (user_cash) }}</h3>  <!-- Use usd to format cash -->
+        {% if finance|length == 0 %}
+            <p class="text-center">Your portfolio is empty.</p>
+        {% else %}
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Shares</th>
+                        <th>Price</th>
+                        <th>Timestamp</th>
+                        <th>Total Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for portfolio in finance %}
+                        <tr>
+                            <td style="text-align: center;">{{ portfolio.symbol }}</td>
+                            <td style="text-align: center;">{{ portfolio.total_shares }}</td>
+                            <td style="text-align: center;">{{ portfolio.price | usd }}</td>  <!-- Format price -->
+                            <td style="text-align: center;">{{ portfolio.timestamp }}</td>
+                            <td style="text-align: center;">{{ (portfolio.price * portfolio.total_shares) | usd }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+{% endblock %}
