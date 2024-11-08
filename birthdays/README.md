@@ -4,6 +4,9 @@ Birthdays is a project focused on working with databases and web development. It
 Languages and Technologies Used:
 
 Python (Flask): Backend web framework for handling application logic and routing.
+
 HTML & CSS: For structuring and styling the web pages.
+
 SQL (SQLite): Database management for storing birthday entries.
+
 Jinja: Flask’s templating engine to display database content dynamically
